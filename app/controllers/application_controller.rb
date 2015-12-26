@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
   
   #added 26DEC,15 8:24PM
   def hello
-    render text: "hello world!!!"
+    render text: 161.chr(Encoding::UTF_8)+"hola, mundo!"
   end
   
 end
